@@ -1,0 +1,66 @@
+.card {
+  display: inline-block;
+  flex-grow: 1;
+  width: 300px;
+  height: auto;
+  margin: 15px;
+  border-radius: 20px;
+  font-family: Consolas, sans-serif;
+  background: #efefef;
+  transition: 0.3s;
+}
+
+.cardBackground {
+  background: aquamarine;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.50);
+  transition: 0.3s;
+}
+
+.card .title {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  text-align: center;
+}
+
+.card .author {
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+  color: #474747;
+}
+
+.card .description {
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.card .lower {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.card .date {
+  float: left;
+  color: #474747;
+}
+
+.card button {
+  float: right;
+  padding: 7px 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  color: orange;
+  background: black;
+}

@@ -1,0 +1,18 @@
+<div class="container">
+  <button (click)="toggleCard()" *ngIf="showCard" class="toggleButton">Hide Sep 20, 2021 😥</button>
+  <button (click)="toggleCard()" *ngIf="!showCard" class="toggleButton">Show Sep 20, 2021 😁</button>
+
+  <div class="items">
+
+    <div *ngFor="let card of cards">
+      <!-- atribuire un card la un input [cardChild] -->
+      <!-- <copil [proprietateCopil] = "proprietateDeLaParinte"></copil> -->
+      <!-- <app-card [cardChild]="cards[0]"></app-card> -->
+
+      <app-card [isHiddenChild]="isHidden"
+                [cardsChild]="card">
+      </app-card>
+    </div>
+
+  </div>
+</div>

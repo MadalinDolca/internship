@@ -1,0 +1,15 @@
+.footer {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background: black;
+}
+
+.social-media a {
+  color: white;
+}
+
+.social-media i {
+  margin: 0 20px;
+  font-size: 30px;
+}

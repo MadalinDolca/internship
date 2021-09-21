@@ -1,0 +1,40 @@
+.header {
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Consolas, sans-serif;
+  text-align: center;
+  color: white;
+  background: black;
+  box-shadow: 0 0 10px #1c1c1c;
+}
+
+.logo {
+  float: left;
+}
+
+.logo a {
+  margin-left: 10px;
+}
+
+.search {
+  float: right;
+}
+
+.header input[type="search" i] {
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+  width: 250px;
+}
+
+.social-media {
+  float: right;
+}
+
+.social-media i {
+  margin: 0 10px;
+  color: white;
+}

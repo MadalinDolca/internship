@@ -1,0 +1,21 @@
+<!--<div class="card" *ngFor="let card of cards">-->
+<!--  <div class="title">{{card.title}}</div>-->
+<!--  <img src="{{card.urlToImage}}" alt="image"/>-->
+<!--  <div class="author">{{card.author}}</div>-->
+<!--  <div class="description">{{card.description}}</div>-->
+<!--  <div class="lower">-->
+<!--    <div class="date">{{card.publishedAt}}</div>-->
+<!--    <button>Read More</button>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div *ngIf="showCardChild" class="card" [ngClass]="{'cardBackground': cardsChild.publishedAt=='Sep 21, 2021'}">
+  <div class="title">{{cardsChild.title}}</div>
+  <img src="{{cardsChild.urlToImage}}" alt="image"/>
+  <div class="author">{{cardsChild.author}}</div>
+  <div class="description">{{cardsChild.description}}</div>
+  <div class="lower">
+    <div class="date">{{cardsChild.publishedAt}}</div>
+    <button>Read More</button>
+  </div>
+</div>
